@@ -9,7 +9,9 @@ body {
     margin: auto;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     padding: 1rem 2rem;
 }
 
@@ -19,4 +21,54 @@ h1 {
 
 img {
     width: 100%;
+}
+
+nav.nav>ul {
+    padding: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LINK STYLING */
+/* Default color for univisited links */
+header nav.nav ul li a:link {
+    color: lightgray;
+}
+/* Color for visited links */
+header nav.nav ul li a:visited {
+    color: purple;
+}
+/* Color when link is hovered over */
+header nav.nav ul li a:hover {
+    color: green;
+}
+/* Color while link is being clicked */
+header nav.nav ul li a:active {
+    color: red;
+}
+/* Color when link has focus (e.g., via keyboard navigation) */
+header nav.nav ul li a:focus {
+    color: orange;
+}
+
+/* Default color for univisited links */
+footer nav.nav ul li a:link {
+    color: tomato;
+}
+/* Color for visited links */
+footer nav.nav ul li a:visited {
+    color: purple;
+}
+/* Color when link is hovered over */
+footer nav.nav ul li a:hover {
+    color: green;
+}
+/* Color while link is being clicked */
+footer nav.nav ul li a:active {
+    color: red;
+}
+/* Color when link has focus (e.g., via keyboard navigation) */
+footer nav.nav ul li a:focus {
+    color: orange;
 }
