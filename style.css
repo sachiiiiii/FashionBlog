@@ -23,7 +23,7 @@ img {
     width: 100%;
 }
 
-nav.nav>ul {
+nav.nav ul {
     padding: 0%;
     list-style-type: none;
     display: flex;
@@ -35,18 +35,6 @@ nav.nav>ul {
 header nav.nav ul li a:link {
     color: lightgray;
 }
-/* Color for visited links */
-header nav.nav ul li a:visited {
-    color: purple;
-}
-/* Color when link is hovered over */
-header nav.nav ul li a:hover {
-    color: green;
-}
-/* Color while link is being clicked */
-header nav.nav ul li a:active {
-    color: red;
-}
 /* Color when link has focus (e.g., via keyboard navigation) */
 header nav.nav ul li a:focus {
     color: orange;
@@ -56,19 +44,22 @@ header nav.nav ul li a:focus {
 footer nav.nav ul li a:link {
     color: tomato;
 }
-/* Color for visited links */
-footer nav.nav ul li a:visited {
-    color: purple;
-}
-/* Color when link is hovered over */
-footer nav.nav ul li a:hover {
-    color: green;
-}
-/* Color while link is being clicked */
-footer nav.nav ul li a:active {
-    color: red;
-}
 /* Color when link has focus (e.g., via keyboard navigation) */
 footer nav.nav ul li a:focus {
-    color: orange;
+    color: brown;
+}
+
+/* BLOG POST TITLE STYLING */
+article h2 {
+    font-size: xx-large;
+}
+article a {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    font-weight: bold;
+    color: tomato;
+}
+article a:focus {
+    color: brown;
 }
