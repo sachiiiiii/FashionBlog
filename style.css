@@ -35,17 +35,14 @@ nav.nav ul {
 header nav.nav ul li a:link {
     color: lightgray;
 }
-
 /* Color when link has focus (e.g., via keyboard navigation) */
 header nav.nav ul li a:focus {
     color: orange;
 }
-
 /* Default color for univisited links */
 footer nav.nav ul li a:link {
     color: tomato;
 }
-
 /* Color when link has focus (e.g., via keyboard navigation) */
 footer nav.nav ul li a:focus {
     color: brown;
@@ -80,4 +77,8 @@ article a {
 
 article a:focus {
     color: brown;
+}
+
+footer {
+    color: lightgray;
 }
